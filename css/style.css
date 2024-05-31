@@ -1,0 +1,29 @@
+#scener {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: bounce, mov;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+}
+
+#scener:hover {
+    animation-name: bounce2;
+}
+
+@keyframes bounce {
+    0% {transform: scale(1);}
+    50% {transform: scale(10); background: blanchedalmond;}
+    100% {transform: scale(1);}
+}
+
+@keyframes bounce2 {
+    0% {transform: scale(1);}
+    50% {transform: scale(2);}
+    100% {transform: scale(1);}
+}
+
+@keyframes mov {
+    100% { color: red;}
+}
