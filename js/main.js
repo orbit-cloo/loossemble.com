@@ -1,4 +1,5 @@
 const ytIDs = [
+    "AdFtOCtmq-Q",
     "EqUP26j4XWU",
     "ljYSblGWWRc",
     "_JgwyxF2vfE",
@@ -16,6 +17,7 @@ const ytIDs = [
 ]
 
 const spotifyIDs = [
+    "3YTXG84SaFHqRP7zXRdCHg",
     "1j8kzYnKuztDWliT8V8Qto",
     "0U4KHBtfmuJSz7SrLFIXim",
     "2sN27KkVSnHvqi0MA2YxcZ",
